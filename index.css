@@ -1,0 +1,75 @@
+index.css
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.header img {
+  height: 60px;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.info-box {
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.info-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-box td {
+  padding: 8px;
+  vertical-align: top;
+}
+
+.info-box td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.footer {
+  margin: 40px auto;
+  max-width: 700px;
+  font-size: 14px;
+  color: #333;
+  text-align: justify;
+}
+
+.link-pdf {
+  margin-top: 30px;
+}
+
+.link-pdf a {
+  text-decoration: none;
+  background-color: #00aaff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.link-pdf a:hover {
+  background-color: #007acc;
+}
